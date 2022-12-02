@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "https://resilient-blini-2b0550.netlify.app/"
 theme = "hugo-apero"
 languageCode = "en"
 title = "A. Solomon Kurz" # Website name
