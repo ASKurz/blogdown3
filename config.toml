@@ -1,7 +1,7 @@
 baseURL = "https://resilient-blini-2b0550.netlify.app/"
 theme = "hugo-apero"
 languageCode = "en"
-title = "A. Solomon Kurz" # Website name
+title = "A. Solomon Kurz" # (doesn't show up anywhere, but lives as meta data)
 author = "A. Solomon Kurz"
 copyright = "© A. Solomon Kurz (2022)" # set to override the auto generated copyright using org info and now year
 googleAnalytics = ""
@@ -29,12 +29,12 @@ enableEmoji = true
     
 [params]
   orgName = ""
-  orgLocal = "Anywhere"
+  orgLocal = ""
   description = ""
   favicon = "/img/favicon.ico"
   logo = "/img/blogophonic-mark-dark.png"
   mainSections = ["blog", "project", "talk"]
-  navallcaps = true
+  navallcaps = false
   # show/hide social icons in site header & footer
   # configure social icons and links below in [[params.social]]
   socialInHeader = false
@@ -61,8 +61,8 @@ enableEmoji = true
   # serif options: Fraunces / EB Garamond / Bitter
   # sans-serif options: Commissioner / Atkinson Hyperlegible / Metropolis
   # if you import your own fonts, name them here too
-  customtextFontFamily = "Commissioner"
-  customheadingFontFamily = "Fraunces"
+  customtextFontFamily = "Commissioner"  # Commissioner
+  customheadingFontFamily = "Bitter"   # Fraunces
   # alternatively, leave empty and select basic font options: sans-serif or serif
   # for more http://tachyons.io/docs/typography/font-family/
   textFontFamily = "sans-serif"
@@ -111,7 +111,7 @@ enableEmoji = true
   # Configure header 
   [[menu.header]]
     name = "About"
-    title = "About Blogophonic"
+    title = "About"
     url = "/about/"
     weight = 1
   [[menu.header]]
