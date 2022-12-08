@@ -31,9 +31,9 @@ enableEmoji = true
   orgName = ""
   orgLocal = ""
   description = ""
-  favicon = "/img/favicon.ico"
+  favicon = "/img/favicon.ico" # default: "/img/favicon.ico"
   logo = "/img/blogophonic-mark-dark.png"
-  mainSections = ["blog", "project", "talk"]
+  mainSections = ["blog", "talk", "publication"]
   navallcaps = false
   # show/hide social icons in site header & footer
   # configure social icons and links below in [[params.social]]
@@ -48,7 +48,7 @@ enableEmoji = true
   # use a built-in color theme
   # one of: forest / grayscale / peach / plum /
   #         poppy / sky / violet / water 
-  theme = "sky"
+  theme = "grayscale"
   
   # or, leave theme empty & make your own palette
   # see docs at https://hugo-apero.netlify.app/blog/color-themes/
@@ -120,25 +120,42 @@ enableEmoji = true
     url = "/blog/"
     weight = 2
   [[menu.header]]
-    name = "Projects"
-    title = "Project Portfolio"
-    url = "/project/"
+    name = "Books"
+    title = "Books"
+    url = "/books/"
     weight = 3
   [[menu.header]]
-    name = "Talks"
-    title = "Talks"
-    url = "/talk/"
+    name = "Publications"
+    title = "Publications"
+    url = "/publication/"
     weight = 4
+    
+#  [[menu.header]]
+#    name = "Projects"
+#    title = "Project Portfolio"
+#    url = "/project/"
+#    weight = 3
   [[menu.header]]
-    name = "A collection"
-    title = "A collection"
-    url = "/collection/"
+    name = "Workshops"
+    title = "Workshops"
+    url = "/talk/"
     weight = 5
+#  [[menu.header]]
+#    name = "Workshops"
+#    title = "Workshops"
+#    url = "/workshops/"
+#    weight = 5
+    
+  [[menu.header]]
+    name = "Courses"
+    title = "Courses"
+    url = "/courses/"
+    weight = 6
   [[menu.header]]
     name = "Elements"
     title = "Element Page"
     url = "/elements/"
-    weight = 6
+    weight = 7
     
   # Configure footer  
   [[menu.footer]]
@@ -146,11 +163,11 @@ enableEmoji = true
     title = "License"
     url = "/license/"
     weight = 1
-  [[menu.footer]]
-    name = "Contact"
-    title = "Contact form"
-    url = "/contact/"
-    weight = 2
+#  [[menu.footer]]
+#    name = "Contact"
+#    title = "Contact form"
+#    url = "/contact/"
+#    weight = 2
 
 # see https://gohugo.io/about/hugo-and-gdpr/    
 [privacy]
