@@ -1,4 +1,4 @@
-baseURL = "https://resilient-blini-2b0550.netlify.app/"
+baseURL = "https://resilient-blini-2b0550.netlify.app"
 theme = "hugo-apero"
 languageCode = "en"
 title = "A. Solomon Kurz" # (doesn't show up anywhere, but lives as meta data)
@@ -31,9 +31,9 @@ enableEmoji = true
   orgName = ""
   orgLocal = ""
   description = ""
-  favicon = "/img/favicon.ico" # default: "/img/favicon.ico"
-  logo = "/img/blogophonic-mark-dark.png"
-  mainSections = ["blog", "talk", "publication"]
+  favicon = "/img/avatar.ico"
+  logo = "/img/avatar.ico" # defualt : "/img/blogophonic-mark-dark.png"
+  mainSections = ["blog", "talk"]  # , "publication"
   navallcaps = false
   # show/hide social icons in site header & footer
   # configure social icons and links below in [[params.social]]
@@ -41,7 +41,7 @@ enableEmoji = true
   socialInFooter = true
   # Default image for social sharing and search engines. 
   # Place image file in `static` folder and specify image name here.
-  sharing_image = "/img/papillons.jpg"
+  sharing_image = "/img/avatar.jpg" # default: "/img/papillons.jpg"
   # Twitter username (without @). Used when a visitor shares your site on Twitter.
   twitter = "SolomonKurz"
   
@@ -71,6 +71,7 @@ enableEmoji = true
   # Configuration of https://utteranc.es/ for comments
   [params.utterances]
     use_utterances = true
+    # add your GitHub repo here
     repo_name = "apreshill/apero"
     issue_term = "pathname" # url, pathname, or title
     theme = "boxy-light"
